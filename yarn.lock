@@ -5729,7 +5729,7 @@ reduce-function-call@^1.0.1:
 
 "redux-api-middleware-addon@git+ssh://git@github.com:chungchi300/redux-api-middleware-addon.git":
   version "1.0.0"
-  resolved "git+ssh://git@github.com:chungchi300/redux-api-middleware-addon.git#fd2e79da031972f42b7dc23b1b33ea1e666c52f0"
+  resolved "git+ssh://git@github.com:chungchi300/redux-api-middleware-addon.git#482e1b8832e5940741c1702ba94153c2fd3a814f"
   dependencies:
     babel-plugin-transform-runtime "^6.23.0"
     babel-runtime "^6.25.0"
