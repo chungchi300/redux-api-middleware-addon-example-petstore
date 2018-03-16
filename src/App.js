@@ -38,7 +38,7 @@ class App extends Component {
 
     store
       .dispatch(
-        await API.Action.request(
+        API.Action.request(
           '/pet/findByStatus',
           {
             method: 'get',
@@ -52,7 +52,7 @@ class App extends Component {
 
     store
       .dispatch(
-        await API.Action.request(
+        API.Action.request(
           '/pet',
           {
             method: 'post',
@@ -70,7 +70,7 @@ class App extends Component {
       .then(res => console.log(res));
     store
       .dispatch(
-        await API.Action.request(
+        API.Action.request(
           '/pet/findByStatus',
           {
             method: 'get',
@@ -83,7 +83,7 @@ class App extends Component {
       .then(res => console.log(res));
     store
       .dispatch(
-        await API.Action.request(
+        API.Action.request(
           '/pet/{id}',
           {
             method: 'get',
